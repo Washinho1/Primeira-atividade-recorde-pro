@@ -1,0 +1,49 @@
+:root {
+  --azulprincipal: #5CA1B0;
+  --areiaescuro: #B08E68;
+  --areiaclaro: #D8CAAF;
+  --branco: #DDE1E0;
+  --mar: #ABD2D1;
+
+}
+
+
+
+.fundo-principal{
+  background-color: var(--azulprincipal);
+}
+
+.fundo-secundario{
+  background-color: var(--mar)
+}
+
+body {
+  background-color: var(--branco);
+}
+
+.centralizar {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fundo-rio {
+  background-image: url(https://rederiohoteis.com/wp-content/uploads/2017/11/2017-11-10-pontos-turísticos-do-rj-para-fotografar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fundo-bahia {
+  background-image: url(http://blog.plazahoteis.com.br/wp-content/uploads/2017/03/salvador-turisticos-pelourinho-elevador-farol-mar17-foter-int.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fundo-pernanbuco {
+  background-image: url(https://www.passagenspromo.com.br/blog/wp-content/uploads/2019/06/pontos-turisticos-de-pernambuco-recife.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
