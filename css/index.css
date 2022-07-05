@@ -25,7 +25,7 @@ body {
 }
 
 .fundo-secundario{
-  background-color: var(--mar)
+  background-color: var(--azulprincipal)
 }
 
 body {
@@ -56,10 +56,4 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-@media only screen and (min-width: 768px) {
-  .carousel-item {
-    height: 600px;
-  }
 }
