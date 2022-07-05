@@ -7,7 +7,18 @@
 
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
+
+.fundo-promo, boy{
+  background-image: url(../imgs/plane-513641_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
 
 .fundo-principal{
   background-color: var(--azulprincipal);
@@ -18,10 +29,9 @@
 }
 
 body {
-  background-color: var(--branco);
 }
 
-.centralizar {
+.centralizar , .fundo-promo  {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -46,4 +56,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel-item {
+    height: 600px;
+  }
 }
